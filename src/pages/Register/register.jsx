@@ -27,7 +27,6 @@ const Register = ({ setDataForm }) => {
       .matches(
         /^((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$/,
         "senha inválida"
-        //matches((?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$),
       ),
     confirm_psw: yup
       .string()

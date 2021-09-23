@@ -5,8 +5,10 @@ import Register from "../pages/Register/register.jsx";
 import Home from "../pages/Home/home.jsx";
 
 const Routes = () => {
+  //não entendi onde usar
   const params = useParams();
   console.log("params: ", { params });
+
   const [dataForm, setDataForm] = useState();
   return (
     <div className="Rotas">
