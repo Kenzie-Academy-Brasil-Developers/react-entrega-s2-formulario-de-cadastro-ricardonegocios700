@@ -3,7 +3,7 @@ import fundo from "../../images/bem_vindo.png";
 
 import "./home.css";
 
-const Home = ({ dataForm, fundo }) => {
+const Home = ({ dataForm }) => {
   return (
     <div className="welcome">
       <h1> Seja bem-vindo(a){dataForm && ` ${dataForm.name}`}!</h1>
